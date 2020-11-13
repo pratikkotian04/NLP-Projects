@@ -1,0 +1,36 @@
+
+I have trained a simple Logistic Regression model based on Bag of words approach.
+
+Tried using dependecy parser to get to amd from destination.
+
+Was not able to capture the dates onward and return.
+
+
+For checking the solution you need to install all the libraries mentioned in requirements.txt
+
+and the run python app.py
+
+I have also included the Database collection named "info_data.json"
+
+Sample Input:-
+{
+    "text":"I want to return on 7th Feb from Delhi"
+}
+
+Sample Output:-
+
+{
+    "response_data": {
+        "Departure_Time": [],
+        "Events": [],
+        "Journey_Type": "Return",
+        "Onward_Time": [
+            "Fri, 07 Feb 2020 00:00:00 GMT"
+        ],
+        "WeekDays": [],
+        "from": "Delhi",
+        "text": "I want to return on 7th Feb from Delhi",
+        "to": "Where do you want to go ?"
+    },
+    "success": true
+}

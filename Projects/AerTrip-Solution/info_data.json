@@ -1,0 +1,39 @@
+{
+    "_id": ObjectId("5fae3cf844db9a4a2ca0dffd"),
+    "places": [
+        "Bangalore",
+        "Mumbai",
+        "Delhi",
+        "Kolkata",
+        "Hyderabad",
+        "Chennai",
+        "Goa"
+    ],
+    "events": [
+        "Diwali",
+        "Christmas",
+        "Holi",
+        "Valentine’s Day"
+    ],
+    "weekDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    ],
+    "time": {
+        "morning": "06:00 to 12:00",
+        "early morning": "00:00 to 06:00",
+        "afternoon": "12:00 to 06:00",
+        "noon": "12:00 (11:00 to 13:00)",
+        "night": "20:00 to 24:00",
+        "evening": "18:00 to 24:00"
+    },
+    "personal_events": [
+        "birthday",
+        "anniversary"
+    ]
+}
