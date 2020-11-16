@@ -1,0 +1,11 @@
+
+
+Approach:-
+
+Since this a binary classification problem the first approach I used was going with simple machine learning algorithm i.e Logistic Regression Model.
+
+Preprocessing was done on the data and the accuracy attained on the Kaggle site was 93%(screenshot provided in the git repo)
+
+Then I used State of the art model BERT using wrapper ktrain
+
+using Ktrain and BERT I was able to achieve a whooping 99.102% accuracy which is the highest in the submission group on test data.
