@@ -9,3 +9,29 @@ Preprocessing was done on the data and the accuracy attained on the Kaggle site 
 Then I used State of the art model BERT using wrapper ktrain
 
 using Ktrain and BERT I was able to achieve a whooping 99.102% accuracy which is the highest in the submission group on test data.
+
+
+{ 
+    "_id" : ObjectId("5f327c0da045f1bebda1926a"), 
+    "int_id" : "W5gAohp_e9727e68", 
+    "int_name" : "SBI Insurance", 
+    "receiving_email_address" : "emailbot183@gmail.com", 
+    "response_agent_type" : "emailbot", 
+    "assigned_agent_type" : "emailbot", 
+    "frequency" : NumberInt(1), 
+    "email_journey" : "EMAIL PLAN", 
+    "bot_id" : "W5gAohp", 
+    "ap_status" : true, 
+    "fields" : {
+        "smtp_server" : "GMAIL", 
+        "smtp_port" : NumberInt(587), 
+        "smtp_address" : "smtp.gmail.com", 
+        "configuration_name" : "Email Bot", 
+        "email_id" : "emailbot183@gmail.com", 
+        "password" : "Machine@2017", 
+        "status" : true, 
+        "email_protocol_type" : "imap", 
+        "imap_server" : "imap.gmail.com", 
+        "imap_port" : NumberInt(993)
+    }
+}
